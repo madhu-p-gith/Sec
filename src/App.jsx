@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import Contactus from "./pages/Contact";
 
 import Header from "./components/Header";
 import Footer from "./components/Footer";
@@ -6,7 +7,9 @@ import Spinner from "./components/Spinner";
 
 const AppBody = () => (
   <div className="app-body" style={{ flex: 1, width: "100%" }}>
-    App Body
+    <Contactus />
+    <Contactus />
+    <Contactus />
   </div>
 );
 

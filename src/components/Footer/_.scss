@@ -6,7 +6,7 @@
 
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: center; //class="d-flex justify-content-center"
   align-items: center;
 
   padding: 12px 24px; // p-5 ~ 13px
@@ -14,18 +14,19 @@
   .footer-info-section,
   .site-brands,
   .footer-bottom {
-    margin-top: 4px;
-    margin-bottom: 4px;
-    width: 100%;
-    display: flex;
-    flex-direction: row;
+    //<div class="footer-copyright >
+    margin-top: 4px; //mt-4
+    margin-bottom: 4px; //mb-4
+    width: 100%; //class="w-100"
+    display: flex; //class="d-flex"
+    flex-direction: row; // class="d-flex flex-row"
     justify-content: space-between;
     align-items: center;
   }
 
   .site-brands {
     padding: 12px;
-    background-color: $color-goldenrod;
+    background-color: $color-goldenrod; //class="bg-primary text-white"
     justify-content: space-around;
 
     .brand {
@@ -42,11 +43,9 @@
     justify-content: center;
 
     .site-copy-rights {
-      padding: 4px 16px;
+      padding: 4px 16px; //class="py-4"
       border-radius: 8px;
-      background-color: $color-dodgerblue;
+      background-color: $color-dodgerblue; //class="bg-primary text-white"
     }
   }
 }
-
-
